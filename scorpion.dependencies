@@ -1,0 +1,27 @@
+[
+ {
+   "repository":  "ScorpionRom-Devices/device_google_coral-sepolicy",
+   "target_path": "device/google/coral-sepolicy",
+   "branch":      "sr-3.x"
+ },
+ {
+   "repository":  "ScorpionRom-Devices/kernel_google_floral",
+   "target_path": "kernel/google/floral",
+   "branch":      "sr-3.x"
+ },
+ {
+   "repository":  "ScorpionRom/vendor_codeaurora_telephony",
+   "target_path": "vendor/codeaurora/telephony",
+   "branch":      "sr-3.x"
+ },
+ {
+   "repository":  "gitlab.com/DirtyUnicorns/android_vendor_images",
+   "target_path": "vendor/images",
+   "branch":      "q10x"
+ },
+ {
+   "repository":  "ScorpionRom-Devices/vendor_google",
+   "target_path": "vendor/google",
+   "branch":      "sr-3.x"
+ }
+]
