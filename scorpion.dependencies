@@ -15,9 +15,14 @@
    "branch":      "sr-3.x"
  },
  {
-   "repository":  "gitlab.com/DirtyUnicorns/android_vendor_images",
+   "repository":  "git.scorpionrom.com/vendor_images",
    "target_path": "vendor/images",
-   "branch":      "q10x"
+   "branch":      "sr-3.x"
+ },
+ {
+   "repository":  "git.scorpionrom.com/pixelgapps",
+   "target_path": "vendor/pixelgapps",
+   "branch":      "sr-3.x"
  },
  {
    "repository":  "ScorpionRom-Devices/vendor_google",
