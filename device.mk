@@ -1046,4 +1046,11 @@ include hardware/google/pixel/citadel/citadel.mk
 # Pixel Logger
 include hardware/google/pixel/PixelLogger/PixelLogger.mk
 
+# Build necessary packages for vendor
+PRODUCT_PACKAGES += \
+    libdisplayconfig \
+    libjson \
+    libtinyxml \
+    libwifi-hal-qcom
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota_retrofit.mk)
