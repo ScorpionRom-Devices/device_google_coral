@@ -15,8 +15,13 @@
    "branch":      "sr-3.x"
  },
  {
-   "repository":  "git.scorpionrom.com/vendor_images",
-   "target_path": "vendor/images",
+   "repository":  "vendor_img_coral",
+   "target_path": "vendor/images/coral",
+   "branch":      "sr-3.x"
+ },
+ {
+   "repository":  "vendor_img_flame",
+   "target_path": "vendor/images/flame",
    "branch":      "sr-3.x"
  },
  {
