@@ -4,6 +4,11 @@
    "target_path": "device/google/coral-sepolicy",
    "branch":      "sr-3.x"
  },
+{
+   "repository":  "DirtyUnicorns/android_external_json-c",
+   "target_path": "external/json-c",
+   "branch":      "q10x"
+ },
  {
    "repository":  "fsociety-kernel/pixel4",
    "target_path": "kernel/google/floral",
