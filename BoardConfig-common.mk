@@ -261,4 +261,6 @@ BOARD_SUPER_PARTITION_ERROR_LIMIT := 9231663104
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/c2f2-setup.sh
 
+BOARD_USES_CAF_LIBJSON := true
+
 -include vendor/google_devices/coral/proprietary/BoardConfigVendor.mk
