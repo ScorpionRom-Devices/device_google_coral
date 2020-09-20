@@ -1046,14 +1046,24 @@ include hardware/google/pixel/PixelLogger/PixelLogger.mk
 
 # Build necessary packages for vendor
 PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+    chre \
     ese_spi_st \
     hardware.google.light@1.0.vendor \
+    libavservices_minijail_vendor:32 \
+    libbatching \
     libcamera2ndk_vendor \
     libcodec2_hidl@1.0.vendor:32 \
     libcodec2_vndk.vendor \
     libdisplayconfig \
     libdrm.vendor \
+    libgooglecamerahal.vendor \
+    libgooglecamerahalutils.vendor \
+    libhidltransport.vendor \
+    libhwbinder.vendor \
     libjson \
+    libkeymaster_messages.vendor:64 \
+    libkeymaster_portable.vendor:64 \
     libmedia_ecoservice.vendor \
     libnetfilter_conntrack:64 \
     libnfnetlink:64 \
@@ -1063,12 +1073,17 @@ PRODUCT_PACKAGES += \
     libnos_datagram_citadel:64 \
     libnosprotos:64 \
     libnos_transport:64 \
+    lib_profiler \
+    libpuresoftkeymasterdevice.vendor:64 \
     libsensorndkbridge \
+    libsoft_attestation_cert.vendor:64 \
     libtextclassifier_hash.vendor:64 \
     libtinycompress \
     libtinyxml \
+    libwifi-hal:64 \
     libwifi-hal-qcom \
     nos_app_avb:64 \
+    nos_app_identity:64 \
     nos_app_keymaster:64 \
     nos_app_weaver:64 \
     sound_trigger.primary.msmnile \
@@ -1076,8 +1091,16 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.1.vendor \
     vendor.display.config@1.2.vendor \
     vendor.display.config@1.3.vendor \
+    vendor.display.config@1.4.vendor \
+    vendor.display.config@1.5.vendor \
+    vendor.display.config@1.6.vendor \
+    vendor.display.config@1.7.vendor \
+    vendor.display.config@1.8.vendor \
+    vendor.display.config@1.9.vendor \
     vendor.qti.hardware.display.allocator@3.0.vendor:64 \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.display.mapper@3.0.vendor \
-    vendor.qti.hardware.display.mapperextensions@1.0.vendor
+    vendor.qti.hardware.display.mapperextensions@1.0.vendor \
+    vendor.qti.hardware.display.mapperextensions@1.1.vendor \
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota_retrofit.mk)
