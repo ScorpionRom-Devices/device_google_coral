@@ -35,6 +35,7 @@ cc_library {
     cflags: [
         "-Wall",
         "-Werror",
+        "-Wno-macro-redefined",
     ],
     srcs: [
         "gpt-utils.cpp",
