@@ -39,7 +39,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/sm8150/proprietary/qmi \
     vendor/qcom/sm8150/codeaurora/location \
     vendor/google/interfaces \
-    vendor/google_nos/test/system-test-harness
+    vendor/google_nos/test/system-test-harness \
+    vendor/codeaurora/telephony/ims
 
 # Include sensors soong namespace
 PRODUCT_SOONG_NAMESPACES += \
@@ -100,6 +101,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     messaging \
     netutils-wrapper-1.0
+
+# IMS/Telephony
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml \
+    telephony-ext
 
 TARGET_PRODUCT_PROP := $(LOCAL_PATH)/product.prop
 
