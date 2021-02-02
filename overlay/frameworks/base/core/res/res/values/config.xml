@@ -543,4 +543,7 @@
 
     <!-- Full screen aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+    <!-- Active Edge -->
+    <bool name="config_has_elmyra">true</bool>
 </resources>
