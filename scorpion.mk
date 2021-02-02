@@ -22,7 +22,7 @@
 #
 
 # Include DU common configuration
-include vendor/du/config/common_full_phone.mk
+include vendor/scorpion/config/common_full_phone.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/coral/aosp_coral.mk)
@@ -31,7 +31,7 @@ $(call inherit-product, device/google/coral/aosp_coral.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-PRODUCT_NAME := du_coral
+PRODUCT_NAME := scorpion_coral
 PRODUCT_DEVICE := coral
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4 XL
@@ -40,10 +40,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="coral" \
     PRIVATE_BUILD_DESC="coral-user 11 RQ1A.210105.003 7005429 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:11/RQ1A.210105.003/7005429:user/release-keys"
+BUILD_FINGERPRINT := "google/crosshatch/crosshatch:11/RQ1A.210105.003/7005429:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/coral/coral:11/RQ1A.210105.003/7005429:user/release-keys
+    ro.build.fingerprint=google/crosshatch/crosshatch:11/RQ1A.210105.003/7005429:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/coral/coral-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
