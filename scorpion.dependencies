@@ -25,8 +25,8 @@
    "branch":      "r11x"
  },
  {
-   "repository":  "android_vendor_pixelgapps",
+   "repository":  "vendor_pixelgapps",
    "target_path": "vendor/pixelgapps",
-   "branch":      "r11x"
+   "branch":      "sr4"
  }
 ]
