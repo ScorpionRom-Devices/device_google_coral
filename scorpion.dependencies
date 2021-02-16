@@ -5,14 +5,14 @@
    "branch":      "r11x"
  },
  {
-   "repository":  "DirtyUnicorns/android_kernel_google_floral",
+   "repository":  "ABCP4XL/kernel_google_floral",
    "target_path": "kernel/google/floral",
-   "branch":      "r11x"
+   "branch":      "r"
  },
  {
-   "repository":  "DirtyUnicorns/android_vendor_codeaurora_telephony",
+   "repository":  "ScorpionRom/vendor_codeaurora_telephony",
    "target_path": "vendor/codeaurora/telephony",
-   "branch":      "r11x"
+   "branch":      "sr4"
  },
  {
    "repository":  "DirtyUnicorns/android_vendor_google",
@@ -27,6 +27,11 @@
  {
    "repository":  "vendor_pixelgapps",
    "target_path": "vendor/pixelgapps",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "gibranmather/arm64-gcc",
+   "target_path": "prebuilts/gcc/linux-x86/aarch64/arm64-gcc",
    "branch":      "sr4"
  }
 ]
