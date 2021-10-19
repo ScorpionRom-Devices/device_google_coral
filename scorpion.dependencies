@@ -1,13 +1,13 @@
 [
  {
-   "repository":  "DirtyUnicorns/android_device_google_coral-sepolicy",
+   "repository":  "ScorpionRom-Devices/device_google_coral-sepolicy",
    "target_path": "device/google/coral-sepolicy",
-   "branch":      "r11x"
+   "branch":      "sr4"
  },
  {
-   "repository":  "ABCP4XL/kernel_google_floral",
+   "repository":  "ScorpionRom-Devices/kernel_google_floral",
    "target_path": "kernel/google/floral",
-   "branch":      "r"
+   "branch":      "sr4"
  },
  {
    "repository":  "ScorpionRom/vendor_codeaurora_telephony",
@@ -15,23 +15,18 @@
    "branch":      "sr4"
  },
  {
-   "repository":  "DirtyUnicorns/android_vendor_google",
+   "repository":  "ScorpionRom-Devices/vendor_google",
    "target_path": "vendor/google",
-   "branch":      "r11x"
+   "branch":      "sr4"
  },
  {
-   "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_interfaces",
+   "repository":  "ScorpionRom/vendor_qcom_opensource_interfaces",
    "target_path": "vendor/qcom/opensource/interfaces",
-   "branch":      "r11x"
+   "branch":      "sr4"
  },
  {
    "repository":  "vendor_pixelgapps",
    "target_path": "vendor/pixelgapps",
-   "branch":      "sr4"
- },
- {
-   "repository":  "gibranmather/arm64-gcc",
-   "target_path": "prebuilts/gcc/linux-x86/aarch64/arm64-gcc",
    "branch":      "sr4"
  }
 ]
