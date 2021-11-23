@@ -38,12 +38,12 @@ PRODUCT_MODEL := Pixel 4 XL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="coral" \
-    PRIVATE_BUILD_DESC="coral-user 11 RQ3A.211001.001 7641976 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 12 SP1A.211105.002 7743617 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:11/RQ3A.211001.001/7641976:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:12/SP1A.211105.002/7743617:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/coral/coral:11/RQ3A.211001.001/7641976:user/release-keys
+    ro.build.fingerprint=google/coral/coral:12/SP1A.211105.002/7743617:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/coral/coral-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
