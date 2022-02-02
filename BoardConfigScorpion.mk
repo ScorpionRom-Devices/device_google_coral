@@ -37,3 +37,7 @@ BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 30720000
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
+#   Battery
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
