@@ -191,6 +191,9 @@ product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 
+# SCONE
+product/priv-app/SCONE/SCONE.apk;PRESIGNED
+
 # Sprint
 product/etc/permissions/com.android.sdm.plugins.sprintdm.xml
 product/priv-app/SprintDM/SprintDM.apk
